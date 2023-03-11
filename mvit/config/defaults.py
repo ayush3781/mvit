@@ -351,7 +351,7 @@ _C.LOG_PERIOD = 10
 _C.LOG_MODEL_INFO = True
 
 # Distributed backend.
-_C.DIST_BACKEND = "nccl"
+_C.DIST_BACKEND = "gloo"
 
 
 # ---------------------------------------------------------------------------- #
